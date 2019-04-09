@@ -1,0 +1,300 @@
+﻿body {font-family: Verdana, sans-serif;}
+
+.mySlides {
+margin-top:10%;
+width:auto;
+height:25em;
+background-repeat: no-repeat;
+padding-left:15%;
+padding-top:10%;
+margin-bottom: 5%;
+}
+.mySlides.fade{
+margin-top: 5%;
+}
+#img_e1{
+background-image:url("../Images/01.png");
+padding-right: 5%;
+padding-left: 10%;
+}
+#img_e2{
+background-image:url("../Images/photo_1.png");
+display:none;
+}
+#img_e3{
+background-image:url("../Images/photo_2.png");
+display:none;
+}
+
+.text {
+  color: white;
+  font-size: 3em;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top:5%;
+  margin-bottom:5%;
+ 
+
+
+  text-align: center;
+}
+
+.numbertext {
+  color: rgba(0, 0, 0, 0);
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 2em}
+}
+
+.section_e{ 
+  width:auto;
+  flex-direction:row; 
+  display:flex;
+  flex-wrap: wrap;
+  padding-left:15%;
+  padding-right: 15%
+  width: 70%;
+  }
+.square_e{
+width:18em;
+height:18em; 
+margin: 1.5%;
+padding: 0.5%;
+}
+.square_e:nth-child(n+2){
+background-image:url("../Images/21.png");
+text-align:center;
+color:white;
+background-repeat: no-repeat;
+}
+.square1_e{
+display:inline-block;
+border: thin solid white;
+width:90%;
+height:90%;
+margin:0 auto;
+diplay: table;
+transform: translate(-1px, 14px);
+}
+
+@media screen and (max-width: 470px){
+.square1_e{
+transform: translate(0px, 10px);
+}
+}
+.square1_e:hover{
+background-color: white;
+color: #363636;
+}
+.square1_e:hover p {
+color: black !important;
+}
+.square1_e p{
+text-align:center;
+color:#C8C8C8;
+font-size:100%;
+}
+.square1_e p:nth-of-type(1){
+margin-top:15%;
+}
+.square1_e p:nth-of-type(2){
+margin-left:10%;
+margin-right:10%;}
+.square_e .square1_e i{
+margin-top: 15px;
+}
+.square1_e a{
+text-align: center;
+text-decoration: none;
+font-size:75%;
+margin-top:10%;
+color:#1C7AA8;}}
+
+@media screen and (max-width:350px)
+{ 
+body{
+margin:0;
+}
+#img_e1{
+padding-right: 0%;
+padding-left: 0%;
+}
+#img_e2{
+padding-right: 0%;
+padding-left: 0%;
+}
+#img_e3{
+padding-right: 0%;
+padding-left: 0%;
+}
+
+
+    .section_e{
+    padding-left:3%;
+    margin-top:5%;
+    margin-right:3%;
+    width:89%;
+    }
+}
+@media screen and (max-width:825px) and (min-width: 351px)
+{ 
+body{
+margin:0;
+}
+#img_e1{
+padding-right: 0%;
+padding-left: 0%;
+}
+#img_e2{
+padding-right: 0%;
+padding-left: 0%;
+}
+#img_e3{
+padding-right: 0%;
+padding-left: 0%;
+}
+
+.square_e{
+width:19em;
+height:19em; 
+margin-left:7%;
+margin-top:2.5%;
+padding: 2.5%;
+}
+    .section_e{
+    width:90%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top: 0%;
+    margin-top:0%;
+    margin-left:0%;
+    }
+
+}
+
+@media screen and (min-width:700px) and (max-width: 824px){
+    .section_e{
+    width:90%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top: 0%;
+    margin-top:0%;
+    margin-left:0%;
+    }
+    .square_e{
+    width:17em;
+    height:17em; 
+    margin-left:5%;
+    margin-top:2.5%;
+    padding: 1.5%;
+    }
+}
+@media screen and (min-width:826px){
+body{
+margin:0;
+}
+#img_e1{
+padding-right: 0%;
+padding-left: 0%;
+}
+#img_e2{
+padding-right: 0%;
+padding-left: 0%;
+}
+#img_e3{
+padding-right: 0%;
+padding-left: 0%;
+}
+}
+@media screen and (max-width:350px){
+body{
+margin:0;
+}
+#img_e1{
+padding-right: 0%;
+padding-left: 0%;
+}
+#img_e2{
+padding-right: 0%;
+padding-left: 0%;
+}
+#img_e3{
+padding-right: 0%;
+padding-left: 0%;
+}
+
+.square_e{
+width:19em;
+height:19em; 
+margin-left:7%;
+margin-top:2.5%;
+padding: 2.5%;
+}
+    .section_e{
+    width:90%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top: 0%;
+    margin-top:0%;
+    margin-left:0%;
+    }
+
+
+
+
+}
+#liiink{
+transform: translate(70px, 50px);
+}
+#start_eee{
+text-align: center;
+font-size: 4em;
+color: black;
+margin-top:5%;
+padding: 1%;
+border: solid;
+}
+#hhh{
+text-decoration: none;
+color: black;
+}
+#end_eee{
+padding: 2%;
+}

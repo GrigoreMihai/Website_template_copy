@@ -1,0 +1,19 @@
+img
+{
+    width:10%;
+
+}
+a{
+    display: inline-block;
+    color:green;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+}
+@media (max-width:670px)
+{
+    img 
+    {
+    width:100%;
+    }
+}

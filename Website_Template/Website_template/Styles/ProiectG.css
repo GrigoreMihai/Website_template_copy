@@ -1,0 +1,138 @@
+body{
+margin: 0;
+}
+.big
+{
+    background-image: url("../Images/big_rectangle.png");
+    height:auto;
+    margin-top:5%;
+    padding: 1% 0% 1% 5%;
+    margin-bottom:1%;
+  
+}
+.big p{
+    padding: 3% 6% 3% 5%;
+}
+
+
+.insidebig
+{
+    padding-top:0%;
+    padding-left:10%;
+    padding-bottom: 4%; 
+    padding-right:2%;
+    display:inline-block;
+    width: 26%;
+   
+}
+.insidebig2
+{   padding-top:0%;
+    padding-left:1%;
+    padding-right:3%;
+    display:inline-block;
+    width: 22%;
+    padding-bottom: 4%;  
+}
+.insidebig3
+{   padding-top: 0%;
+    padding-left:1%;
+    padding-right:5%;
+    display:inline-block;
+    width: 25%;
+    padding-bottom: 4%;
+}
+
+.noscopediv
+{
+ 
+    width:17%;
+    height:auto;
+  
+    padding-left:1.5%;
+    padding-right:1.5%;
+    padding-bottom: 3%;
+    text-align: center;
+   
+    display:inline-block;
+
+}
+.margin
+{
+    margin-left:15%;
+}
+.anotherbig
+{
+    position: relative;
+    background-image: url("../Images/Background_modif.png");
+    height:auto;
+    margin-top:5%;
+    padding-bottom: 65px;
+    padding-top: 65px;
+    padding-left:25%;
+    padding-right:25%;
+  
+}
+
+.small_img2_g{
+    display: inline-block;
+background-color:white;
+height: 5px;
+width: 20px;
+text-align: center;
+padding-top:5px;
+padding-bottom:30px;
+padding-left: 2px;
+padding-right: 2px;
+margin-right:5px;
+color:rgb(0, 153, 255);
+}
+
+.category_r {
+	color: #1C7AA8;
+    padding-right:5px;
+    font-size:13px;
+}
+.whatever
+{
+    margin-left:10%;
+}
+@media  (max-width: 670px)
+{
+    .insidebig
+    {
+        width:90.5%;
+        padding-left:0;
+    }
+    .insidebig2
+    {
+        width:90.5%;
+        
+    }
+    .insidebig3
+    {
+        width:90.5%;
+        
+    }
+    .noscopediv
+    {
+        width:50%;
+        padding-left:0;
+        margin-left:10%;
+    }
+    .media
+    {
+        width:93%;
+    }
+    .whatever
+    {
+        margin-left:10%;
+    }
+}
+@media  (max-width: 1200px) and (min-width: 671px){
+    .noscopediv
+    {
+        width:30%;
+        padding-left:0;
+        margin-left:10%;
+    }
+}

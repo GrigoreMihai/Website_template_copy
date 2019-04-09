@@ -1,0 +1,167 @@
+﻿#title_mm {
+    float: left;
+    font-size: 36px;
+    padding-top: 20px;
+    padding-left: 100px;
+    font-family: Verdana;
+}
+.right_mm {
+    float: right;
+    padding-top: 20px;
+    padding-right: 100px;
+}
+#title2_mm{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+#subtitle_mm {
+    font-size: 14px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 30px;
+    overflow: hidden;
+    background-color: black;
+}
+li {
+    float: left;
+}
+.menu_mm{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#overbar_mm{
+    background-color:black;
+    height: 50px;
+}
+.white_sp_mm{
+    height: 30px;
+}
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+body{
+    font-family:Verdana;
+}
+.top_mm{
+    font-family:'Times New Roman';
+}
+.right_menu_mm {
+    float: right;
+    padding-right: 30px;
+}
+.first_line_mm {
+    float: left;
+    padding: 20px;
+}
+.second_line_mm {
+    float: left;
+    padding: 20px;
+}
+input[type=submit] {
+    float: right;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: Verdana;
+    font-size: 14px;
+}
+input[type=submit]:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: black;
+}
+.price_mm {
+    padding-left: 110px;
+}
+.first_line_mm {
+    border-style: solid;
+    margin: 5px;
+}
+.second_line_mm {
+    border-style: solid;
+    margin: 5px;
+}
+form{
+    padding-top:15px;
+    text-align:center;
+    color: black;
+}
+.quant_mm {
+    padding: 8px;
+}
+input:out-of-range{
+    border:2px solid red;
+}
+@media screen and (max-width:750px) and (min-width:400px)
+{
+#title_mm{
+padding: 5%;
+margin-left: 10%;
+}
+#title2_mm{
+padding:2%;
+margin-left: 5%;
+}
+.menu_mm{
+padding: 15%;
+margin: 0;
+}
+}
+@media screen and (max-width:399px) and (min-width:350px)
+{
+.menu_mm{
+padding: 3%;
+margin-top: 150px;
+width:100%
+}
+#title2_mm{
+padding:1%;
+margin-right: 35px;
+}
+#title_mm{
+margin-left: 9.5%;
+}
+#overbar_mm{
+margin-left: 10px;
+margin-top: 10px;
+}
+body{
+margin: 0px 5px;
+}
+}
+@media screen and (max-width:349px)
+{
+.menu_mm{
+padding: 3%;
+margin-top: 150px;
+width:100%;
+transform: translate(10px, 0px);
+}
+
+#title2_mm{
+padding:1%;
+margin-right: 35px;
+transform: translate(40px, 0px);
+}
+#subtitle_mm{
+transform: translate(35px, 0px);
+}
+#title_mm{
+margin-left: 9.5%;
+}
+#overbar_mm{
+width: 100%;
+margin-left: 20px;
+margin-top: 10px;
+}
+body{
+margin: 0;
+transform: translate(-2px, 0px);
+}
+}
